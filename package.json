@@ -1,0 +1,26 @@
+{
+  "name": "users-groups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lsuser",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "dist/lsuser",
+    "build": "webpack; ./build.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@types/yargs": "^15.0.5",
+    "chalk": "^4.1.0",
+    "yargs": "^15.4.1"
+  }
+}
